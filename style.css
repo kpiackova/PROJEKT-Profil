@@ -13,7 +13,95 @@ html { box-sizing: border-box; }
 	twitter    #1da1f2
 */
 
-
 body {
 	background-color: #bdc3c7;
+}
+
+.jmeno {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 26px;
+}
+
+.profil {
+	width: 250px;
+	background-color:  #31363b;
+	box-shadow: 2px 2px 6px #5c5e5f;
+}
+
+.hlavicka {
+	position: relative;
+}
+
+.logo {
+	border-radius: 50%;
+	background-color: #b92e81;
+	box-shadow: 0 6px 8px #1d2020;
+	position: absolute;
+	top: 141.78px;
+	right: 25px;
+}
+
+.foto {
+	width: 250px;
+}
+
+.obsah {
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #bdc3c7;
+	font-size: 14px;
+}
+
+.odkazy {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	font-family: Montserrat, sans-serif;
+	color: #bdc3c7;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	/* display: inline-block; */
+}
+
+.portfolio {
+	display: block;
+	border-top: 1px solid  #3f464d;
+	border-bottom: 1px solid  #3f464d;
+	text-align: center;
+	padding: 12px 0;
+	
+}
+
+.portfolio:hover {
+	background-color: #e74c3c;
+}
+
+
+.facebook {
+	display: inline-block;
+	padding: 12px 0;
+	/* width: 49%; */
+	width: 123px;
+	text-align: center;
+}
+
+.facebook:hover {
+	background-color: #3b5998;
+}
+
+.twitter {
+	display: inline-block;
+	padding: 12px 0;
+	/* width: 49%; */
+	width: 123px;
+	text-align: center;
+}
+
+.twitter:hover {
+	background-color:#1da1f2;
 }
